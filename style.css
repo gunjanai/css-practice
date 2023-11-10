@@ -21,7 +21,7 @@
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
 }
 
 .container {
@@ -64,4 +64,32 @@ body {
   cursor: pointer;
   color: white;
   background: #072a2d;
+}
+
+.middle__content {
+  padding: 7% 5% 7% 5%;
+}
+
+.row {
+  display: flex;
+  gap: 5%;
+  text-align: center;
+}
+
+.middle__content__body {
+  color: #3a3a3a;
+}
+
+.middle__content__heading {
+  color: #87629a;
+}
+
+.heading {
+  font-size: 36px;
+}
+
+.bottom__content {
+  background-color: #136c72;
+  padding: 7% 5% 7% 5%;
+  color: white;
 }
